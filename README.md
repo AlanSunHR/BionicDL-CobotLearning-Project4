@@ -37,7 +37,10 @@ Add following to your .bashrc file:
 source ~/catkin_ws/devel/setup.bash
 ```
 
-Install tensorflow:
+Install tensorflow and other dependent packages:
+```
+pip install numpy opencv-python Pillow pyrealsense2
+```
 If you have GPU on your PC and have GPU driver and Cuda installed:
 ```
 sudo pip install tensorflow-gpu==1.12
